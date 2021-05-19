@@ -10,10 +10,16 @@ body {
 
 #cabecalho {
   position: fixed;
+  margin: 10px;
+  padding: 10px;
+  border: 0px;
 }
 
 #titulo {
   font-size: large;
+  color: rgb(77, 55, 55);
+  font-family: 'Courier New', Courier, monospace;
+  letter-spacing: -1px;
 }
 
 #licoes_aprendidas {
@@ -29,4 +35,8 @@ th {
   padding: 12px;
   width: 55%;
   text-align: left;
+}
+
+#meu_aprendizado {
+  line-height: 20px;
 }
